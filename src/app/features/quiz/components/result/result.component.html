@@ -1,0 +1,5 @@
+<div *ngIf="isCorrect !== null">
+  <p *ngIf="isCorrect; else incorrectAnswer">Correct! 🎉</p>
+  <ng-template #incorrectAnswer><p>Incorrect. Try again!</p></ng-template>
+  <p>Score: {{ score }}</p>
+</div>
