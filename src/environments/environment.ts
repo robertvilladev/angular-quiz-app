@@ -1,6 +1,8 @@
 // src/environments/environment.ts
 export const environment = {
   production: false,
-  openAIQuizModel: 'gpt-3.5-turbo',
-  openAIApiKey: '',
+  apiUrl: 'http://localhost:5000',
+  featureToggle: {
+    featureX: true,
+  },
 };

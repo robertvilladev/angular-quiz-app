@@ -1,5 +1,19 @@
 <div *ngIf="loading">Loading question...</div>
-<div *ngIf="!loading && question">
-  <h2>{{ question }}</h2>
-  <button (click)="fetchNewQuestion()">Get New Question</button>
+
+<div *ngIf="!loading && question" class="question-container">
+  <h3 class="question-text">{{ question.questionText }}</h3>
+
+  <section class="answers-container">
+    <div
+      *ngFor="let answer of question.options"
+      class="answers"
+      (keyup.enter)="selectAnswer(answer.id)"
+      (click)="selectAnswer(answer.id)"
+      tabindex="0"
+    >
+      <div class="answer-text" [ngClass]="{ correct: answer.isCorrect }">
+        >{{ answer.text }}
+      </div>
+    </div>
+  </section>
 </div>

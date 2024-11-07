@@ -1,0 +1,39 @@
+<div class="quiz-container">
+  <div *ngIf="!currentQuestion">
+    <p>No questions available.</p>
+  </div>
+
+  <!-- Display the question from the QuestionComponent -->
+
+  <app-question
+    [question]="currentQuestion"
+    (answerSelected)="selectAnswer($event)"
+  >
+    <!-- Binds the emitted answer to selectAnswer -->
+  </app-question>
+
+  <!-- display questionNumber -->
+  <div class="question-number">
+    Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}
+  </div>
+
+  <!-- Display the navigation buttons -->
+  <div class="navigation-buttons" *ngIf="currentQuestion">
+    <button
+      (click)="previousQuestion()"
+      [disabled]="currentQuestionIndex === 0"
+    >
+      Previous
+    </button>
+
+    <button
+      (click)="nextQuestion()"
+      [disabled]="currentQuestionIndex === questions.length - 1"
+    >
+      Next
+    </button>
+  </div>
+
+  <!-- Show the result using ResultComponent -->
+  <!--   <app-result [isCorrect]="isCorrect" [score]="score"></app-result> -->
+</div>

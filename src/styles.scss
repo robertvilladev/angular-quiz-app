@@ -1,4 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import 'styles/theme';
+@import 'styles/variables';
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0;
+  font-size: $font-size-base;
+  font-family: $font-family;
+
+  background-color: map-get($theme-colors, background-dark);
+  color: map-get($theme-colors, primary-dark-text);
+}

@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import { environment } from '../../../environments/environment';
-
 import OpenAI from 'openai';
 
 @Injectable({
@@ -11,7 +9,7 @@ export class GptApiService {
 
   defaultPrompt = 'What is the capital of France?';
 
-  async getQuizQuestions(prompt = this.defaultPrompt): Promise<any> {
+  async getQuizQuestions(prompt = this.defaultPrompt): Promise<unknown> {
     const openai = new OpenAI({
       apiKey: '',
       dangerouslyAllowBrowser: true,
@@ -31,8 +29,6 @@ export class GptApiService {
       ],
       model: 'gpt-4o-mini',
     });
-
-    console.log(completion);
 
     return completion;
   }

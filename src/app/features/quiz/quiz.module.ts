@@ -2,12 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [
-    // QuizComponent,
-    // AnswerComponent,
-    // ResultComponent,
-    // Question
-  ],
+  declarations: [],
   imports: [CommonModule],
   exports: [],
 })

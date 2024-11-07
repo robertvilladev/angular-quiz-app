@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { QuizComponent } from './features/quiz/quiz/quiz.component';
+import { QuizComponent } from './features/quiz/quiz.component';
 
 @Component({
   selector: 'app-root',
