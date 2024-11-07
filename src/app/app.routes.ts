@@ -1,7 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { NgModule } from '@angular/core';
-import { QuizComponent } from './features/quiz/quiz/quiz.component';
+import { QuizComponent } from './features/quiz/quiz.component';
 
 export const routes: Routes = [
   { path: 'quiz', component: QuizComponent },

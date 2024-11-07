@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "What is the chemical symbol for water?",
+      "correct_answer": "H2O",
+      "wrong_answers": ["O2", "H2", "CO2"],
+      "explanation": "Water is composed of two hydrogen atoms and one oxygen atom, which gives it the chemical formula H2O."
+    },
+    {
+      "id": 2,
+      "question_text": "What planet is known as the Red Planet?",
+      "correct_answer": "Mars",
+      "wrong_answers": ["Venus", "Jupiter", "Mercury"],
+      "explanation": "Mars is often called the Red Planet due to its reddish appearance, which comes from iron oxide on its surface."
+    },
+    {
+      "id": 3,
+      "question_text": "What is the most abundant gas in Earth's atmosphere?",
+      "correct_answer": "Nitrogen",
+      "wrong_answers": ["Oxygen", "Carbon Dioxide", "Hydrogen"],
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, making it the most abundant gas."
+    },
+    {
+      "id": 4,
+      "question_text": "What is the speed of light in a vacuum?",
+      "correct_answer": "299,792,458 meters per second",
+      "wrong_answers": [
+        "150,000,000 meters per second",
+        "3,000,000 meters per second",
+        "30,000 meters per second"
+      ],
+      "explanation": "The speed of light in a vacuum is approximately 299,792,458 meters per second, a fundamental constant in physics."
+    },
+    {
+      "id": 5,
+      "question_text": "Who developed the theory of general relativity?",
+      "correct_answer": "Albert Einstein",
+      "wrong_answers": ["Isaac Newton", "Nikola Tesla", "Galileo Galilei"],
+      "explanation": "Albert Einstein developed the theory of general relativity, which explains gravitational forces as a result of the curvature of space-time."
+    },
+    {
+      "id": 6,
+      "question_text": "What is the powerhouse of the cell?",
+      "correct_answer": "Mitochondria",
+      "wrong_answers": ["Nucleus", "Ribosome", "Endoplasmic Reticulum"],
+      "explanation": "Mitochondria are known as the powerhouse of the cell because they produce energy in the form of ATP."
+    },
+    {
+      "id": 7,
+      "question_text": "What is the largest planet in our Solar System?",
+      "correct_answer": "Jupiter",
+      "wrong_answers": ["Saturn", "Earth", "Neptune"],
+      "explanation": "Jupiter is the largest planet in the Solar System, with a diameter of about 142,984 km."
+    },
+    {
+      "id": 8,
+      "question_text": "What type of bond involves the sharing of electron pairs between atoms?",
+      "correct_answer": "Covalent bond",
+      "wrong_answers": ["Ionic bond", "Hydrogen bond", "Metallic bond"],
+      "explanation": "In a covalent bond, atoms share electron pairs to achieve stability."
+    },
+    {
+      "id": 9,
+      "question_text": "Which planet has the most moons?",
+      "correct_answer": "Saturn",
+      "wrong_answers": ["Jupiter", "Earth", "Mars"],
+      "explanation": "Saturn has the most moons in our Solar System, with over 80 confirmed moons."
+    },
+    {
+      "id": 10,
+      "question_text": "What is the main gas found in the Sun?",
+      "correct_answer": "Hydrogen",
+      "wrong_answers": ["Helium", "Oxygen", "Carbon"],
+      "explanation": "The Sun is primarily composed of hydrogen, which undergoes fusion to form helium and release energy."
+    },
+    {
+      "id": 11,
+      "question_text": "Which sorting algorithm has the best average-case time complexity?",
+      "correct_answer": "Merge Sort",
+      "wrong_answers": ["Bubble Sort", "Selection Sort", "Insertion Sort"],
+      "explanation": "Merge Sort has a time complexity of O(n log n) in the average case, making it more efficient than algorithms like Bubble Sort, which is O(n^2)."
+    },
+    {
+      "id": 12,
+      "question_text": "What does the 'this' keyword represent in JavaScript?",
+      "correct_answer": "The current execution context",
+      "wrong_answers": [
+        "The global object",
+        "The function name",
+        "The return value"
+      ],
+      "explanation": "In JavaScript, 'this' refers to the object that is currently executing the code, and its value can vary depending on the context."
+    },
+    {
+      "id": 13,
+      "question_text": "What is the most common isotope of carbon?",
+      "correct_answer": "Carbon-12",
+      "wrong_answers": ["Carbon-13", "Carbon-14", "Carbon-15"],
+      "explanation": "Carbon-12 is the most abundant carbon isotope, accounting for about 98.9% of carbon atoms."
+    },
+    {
+      "id": 14,
+      "question_text": "In Python, what will 'int('10', 2)' return?",
+      "correct_answer": "2",
+      "wrong_answers": ["10", "Binary representation error", "ValueError"],
+      "explanation": "The function int('10', 2) converts the binary string '10' to decimal, resulting in the value 2."
+    },
+    {
+      "id": 15,
+      "question_text": "Which programming paradigm emphasizes functions and avoids changing-state and mutable data?",
+      "correct_answer": "Functional programming",
+      "wrong_answers": [
+        "Object-oriented programming",
+        "Procedural programming",
+        "Logical programming"
+      ],
+      "explanation": "Functional programming relies on pure functions and immutability, unlike other paradigms that often allow mutable data and side effects."
+    },
+    {
+      "id": 16,
+      "question_text": "What particle is known as the 'God particle'?",
+      "correct_answer": "Higgs boson",
+      "wrong_answers": ["Photon", "Electron", "Neutron"],
+      "explanation": "The Higgs boson is nicknamed the 'God particle' because it provides mass to other particles through the Higgs field."
+    },
+    {
+      "id": 17,
+      "question_text": "In what programming language is the keyword 'defer' used to postpone execution of a function until the surrounding function returns?",
+      "correct_answer": "Go",
+      "wrong_answers": ["JavaScript", "Python", "Java"],
+      "explanation": "In Go, 'defer' postpones the execution of a function until the surrounding function completes, typically for cleanup tasks."
+    },
+    {
+      "id": 18,
+      "question_text": "What is the most stable isotope of uranium?",
+      "correct_answer": "Uranium-238",
+      "wrong_answers": ["Uranium-235", "Uranium-233", "Uranium-234"],
+      "explanation": "Uranium-238 is the most stable uranium isotope, with a half-life of about 4.5 billion years, making it predominant in natural uranium."
+    },
+    {
+      "id": 19,
+      "question_text": "In computer science, what does the term 'Big O notation' describe?",
+      "correct_answer": "The worst-case time complexity of an algorithm",
+      "wrong_answers": [
+        "The speed of an algorithm",
+        "The required memory for an algorithm",
+        "The best-case performance of an algorithm"
+      ],
+      "explanation": "Big O notation provides an upper bound on the growth rate of an algorithm’s runtime as the input size increases."
+    },
+    {
+      "id": 20,
+      "question_text": "Which sorting algorithm is stable and operates in-place?",
+      "correct_answer": "Insertion Sort",
+      "wrong_answers": ["Merge Sort", "Quick Sort", "Heap Sort"],
+      "explanation": "Insertion Sort is stable and in-place, meaning it does not require additional memory for sorting and maintains the relative order of equal elements."
+    }
+  ]
+}
